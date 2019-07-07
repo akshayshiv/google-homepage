@@ -1,0 +1,80 @@
+li{
+    display: inline-flex;
+}
+
+a {
+  text-decoration: none;
+  color: #5F6367;
+}
+
+.top {
+  float: right;
+}
+
+.top li {
+  padding-left: 10px;
+}
+
+.top a:hover {
+  text-decoration: underline;
+}
+
+.bottom {
+  position: relative;
+  background: #F3F3F3;
+} 
+
+.bottom li {
+  padding-top: 2px;
+  padding-right: 10px;
+  padding-bottom: 2px;
+}
+
+.bottom a:hover {
+  text-decoration: underline;
+}
+
+.left{
+  margin-left: -35px;
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+#login {
+  background: #0080ff;
+  color: white;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search-engine {
+  text-align: center;
+  padding-top: 250px;
+}
+
+#logo {
+  width: 500px;
+}
+
+#search {
+  width: 500px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: #F3F3F3;
+}
+
+.buttons ul li {
+  padding: 7px 7px 7px 7px;
+  border-radius: 0px;
+  background: #F3F3F3;
+}
+
+.buttons a:hover{
+  text-decoration: underline;
+}
+
+
